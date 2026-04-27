@@ -504,8 +504,8 @@ body {
   padding: 10px;
 }
 .photo-1 img, .photo-2 img , .photo-3 img, .photo-4 img, .photo-5 img, .photo-6 img, .photo-7 img, .photo-8 img, .photo-9 img {
- height: clamp(100px, 15vw, 500px);
-  width: clamp(150px, 20vw, 500px);
+ height: clamp(200px, 15vw, 500px);
+  width: clamp(250px, 20vw, 500px);
    max-height:300px;
    margin: 0 auto;
   display: block;
