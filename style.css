@@ -401,7 +401,7 @@ h1, h2, h3, h4, h5, h6 {
       /* NAVBAR */
     .navbar { flex-wrap: nowrap; justify-content: space-between; gap: 1px; padding:5px; height: 40px; }
     .nav { display: flex; flex-wrap: nowrap; justify-content: flex-end; gap: 5px; overflow-x: visible; } 
-    .nav a { font-size: clamp(13px, 3vw, 16px); padding: 2px 0px; white-space: nowrap; }
+    .nav a { font-size: clamp(12px, 3vw, 16px); padding: 2px 0px; white-space: nowrap; }
     .logo img { height: clamp(20px, 3vw, 30px); } 
     .hero-section { height: auto; } 
     .hero-content img { width: 100%; height: auto; }
