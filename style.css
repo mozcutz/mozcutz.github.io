@@ -342,7 +342,7 @@ h1, h2, h3, h4, h5, h6 {
                                      
     /*SERVICES PAGE */ 
     .service-card-container { width: 100%; max-width: 2000px; padding: clamp(20px, 4vw, 50px); border: #555 solid 1px; margin: 0 auto; } 
-    .service-box-services { display: grid; grid-template-columns: repeat(3, minmax(250px, 1fr)); gap: 100px; width: 100%; justify-items: center; } 
+    .service-box-services { display: grid; grid-template-columns: repeat(3, minmax(250px, 1fr)); gap: 10px; width: 100%; justify-items: center; } 
     .service-1, .service-2, .service-3, .service-4, .service-5, .service-6, .service-7, .service-8, .service-9 {background: white; padding: 30px; border: 1px solid #ddd; width: 100%; } 
     .service-1 h3, .service-2 h3, .service-3 h3, .service-4 h3, .service-5 h3, .service-6 h3, .service-7 h3, .service-8 h3, .service-9 h3 { font-size: clamp(30px, 2vw, 40px); margin-bottom: 10px; text-align: center; letter-spacing: 2px; } 
     .service-1 h3 span, .service-2 h3 span, .service-3 h3 span, .service-4 h3 span, .service-5 h3 span, .service-6 h3 span, .service-7 h3 span, .service-8 h3 span, .service-9 h3 span {display: inline-block; margin-left: 8px; font-size: clamp(30px, 2vw, 45px); color: #C8A95A; }
@@ -407,23 +407,23 @@ h1, h2, h3, h4, h5, h6 {
     .hero-content img { width: 100%; height: auto; }
     .hero-content h1, .hero-content a { position: absolute; left: 50%; transform: translateX(-50%); text-align: center; }
     .hero-content h1 { width: 90%; white-space: normal; padding: 20px 15px 10px; font-size: clamp(22px, 3vw, 30px); top: 30%; }
-    .hero-content a { width: auto; max-width: 180px; margin: 20px auto; top: 50%; font-size: clamp(14px, 2vw, 20px); padding: 4px 8px; } 
+    .hero-content a { width: auto; max-width: 180px; margin: 20px auto; top: 50%; font-size: clamp(14px, 2vw, 20px); padding: 2px 6px; } 
 
     /*homepage our services section */
-    .our-services h1,.our-work h1, .booknow-container h1, .short-story h1, .our-work-container h1, .about-info-text h1 ,.core-values-inner h1 {white-space:nowrap; font-size: clamp(22px,2vw,25px); padding: 20px 10px; text-align: center; }
+    .our-services h1,.our-work h1, .booknow-container h1, .short-story h1, .our-work-container h1, .about-info-text h1 ,.core-values-inner h1 {white-space:nowrap; font-size: clamp(20px,2vw,25px); padding: 20px 10px; text-align: center; }
     .service-1-card img, .service-2-card img,.service-3-card img{ height: auto; max-height: 80px; width: auto; max-width: 100%; padding: 8px; } 
-    .service-1-card h3, .service-2-card h3, .service-3-card h3 { font-size: clamp(20px, 2vw, 22px); } 
-    .service-1-card p, .service-2-card p, .service-3-card p { font-size: clamp(18px, 2vw, 20px); line-height: 1.5; } 
-    .our-work-btn, .booknow-btn, .view-all-services-cta , .book-services-cta { font-size: clamp(16px, 3vw, 18px); padding: 4px 6px; } 
+    .service-1-card h3, .service-2-card h3, .service-3-card h3 { font-size: clamp(18px, 2vw, 22px); } 
+    .service-1-card p, .service-2-card p, .service-3-card p { font-size: clamp(16px, 2vw, 20px); line-height: 1.5; } 
+    .our-work-btn, .booknow-btn, .view-all-services-cta , .book-services-cta { font-size: clamp(15px, 3vw, 18px); padding: 2px 4px; } 
 
     /*homepage Reviews section */
     .review-box { flex-direction: column; gap: 20px; }
     .review-box { grid-template-columns: 1fr; }
-    .reviews h1 { font-size: clamp(22px, 3vw, 25px); padding: 20px 10px; }
+    .reviews h1 { font-size: clamp(20px, 3vw, 25px); padding: 20px 10px; }
     .reviews-container { gap: 20px; }
     .review-card-1, .review-card-2, .review-card-3 { width: 100%; max-width: 400px; margin: 0 auto; }
-    .review-card-1 h3, .review-card-2 h3, .review-card-3 h3 { font-size: clamp(20px, 2vw, 30px); } 
-    .review-card-1 p, .review-card-2 p, .review-card-3 p { font-size: clamp(18px, 2vw, 25px); line-height: 2;}
+    .review-card-1 h3, .review-card-2 h3, .review-card-3 h3 { font-size: clamp(16px, 2vw, 30px); } 
+    .review-card-1 p, .review-card-2 p, .review-card-3 p { font-size: clamp(16px, 2vw, 25px); line-height: 2;}
 
     /*Footer */
     .footer-logo img{ height: clamp(20px, 3vw, 30px); } 
@@ -447,7 +447,7 @@ h1, h2, h3, h4, h5, h6 {
     .about-info-grid { flex-direction: column; gap: 20px; } 
     .about-info-text { margin-left: 20px; margin-right: 20px; } 
     .about-info-text h1 { font-size: clamp(22px, 3vw, 25px); }
-    .about-info-text p{ font-size: clamp(16px, 2vw, 18px); } 
+    .about-info-text p{ font-size: clamp(15px, 2vw, 18px); } 
     .core-values-inner { max-width: 100%; padding: 20px; }
     .value-card h3 { font-size: clamp(20px, 2vw, 22px); }
     .value-card p { font-size: clamp(16px, 2vw, 18px); }
